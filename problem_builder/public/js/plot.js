@@ -181,10 +181,10 @@ function PlotBlock(runtime, element) {
 
     function toggleQuadrantLabels() {
         var selection = svgContainer.selectAll(".quadrant-label"),
-            quadrantLabelsOn = quadrantsButton.val() === 'On';
+            quadrantLabelsOn = quadrantsButton.val() === gettext("on");
         if (quadrantLabelsOn) {
             selection.remove();
-            quadrantsButton.val("Off");
+            quadrantsButton.val(gettext("off"));
             quadrantsButton.css("border-color", "red");
         } else {
             var labels = [
@@ -210,7 +210,7 @@ function PlotBlock(runtime, element) {
                 .attr("font-family", "sans-serif")
                 .attr("font-size", "16px")
                 .attr("fill", "black");
-            quadrantsButton.val("On");
+            quadrantsButton.val(gettext("on"));
             quadrantsButton.css("border-color", "green");
         }
     }
