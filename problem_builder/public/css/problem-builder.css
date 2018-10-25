@@ -123,7 +123,6 @@
 }
 
 .mentoring .choice-result,
-.mentoring .choice-label,
 .mentoring .choice-tips-container {
     vertical-align: top;
 }
@@ -177,11 +176,6 @@
 .mentoring .assessment-question-block {
     border: 5px solid #e5ebee;
     padding: 20px;
-}
-
-.mentoring .assessment-question-block > .xblock-v1-assessment_step_view,
-.mentoring .assessment-question-block > .xblock-assessment_step_view  {
-    display: none; /* Each "step" (question) is hidden at first, and shown one at a time by JavaScript */
 }
 
 .mentoring .assessment-checkmark {
