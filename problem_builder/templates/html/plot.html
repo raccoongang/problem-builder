@@ -10,7 +10,7 @@
              data-q2-label="{{ self.q2_label }}"
              data-q3-label="{{ self.q3_label }}"
              data-q4-label="{{ self.q4_label }}"
-             value="Off">
+             value="{% trans 'off' %}">
     </label>
   </div>
 
@@ -29,7 +29,7 @@
            data-claims="{{ self.average_claims_json }}"
            data-point-color="{{ self.point_color_average }}"
            data-overlay-on="false"
-           value="Average"
+           value="{% trans 'Average' %}"
            />
 
     {% for overlay in self.overlay_data %}
