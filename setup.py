@@ -28,7 +28,7 @@ from setuptools.command.install import install
 
 # Constants #########################################################
 
-VERSION = 'sgab-3.1.5'
+VERSION = 'sgab-3.1.6'
 
 
 # Functions #########################################################

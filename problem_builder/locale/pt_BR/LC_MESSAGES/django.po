@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 15:28+0200\n"
+"POT-Creation-Date: 2018-12-20 14:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1465,18 +1465,14 @@ msgstr ""
 #: problem_builder/templates/html/mentoring.html:50
 #: problem_builder/templates/html/mentoring_with_steps.html:34
 msgid ""
-"\n"
-"        Copyright &copy; 2013&ndash;2015 OpenCraft, Harvard, edX, McKinsey, "
-"and The People's Science, released under the\n"
-"    "
+"Copyright &copy; 2013&ndash;2015 OpenCraft, Harvard, edX, McKinsey, and The "
+"People's Science, released under the"
 msgstr ""
-"\n"
-"        Copyright 2013-2015, OpenCraft, Harvard, edx, McKinsey, "
-"e a ciência do povo, lançada sob a licença APGLv3\n"
-"    "
+"Copyright &copy; 2013&ndash;2015, OpenCraft, Harvard, edx, McKinsey, e a "
+"ciência do povo, lançada sob a licença"
 
-#: problem_builder/templates/html/mentoring.html:53
-#: problem_builder/templates/html/mentoring_with_steps.html:37
+#: problem_builder/templates/html/mentoring.html:51
+#: problem_builder/templates/html/mentoring_with_steps.html:35
 msgid "APGLv3 license"
 msgstr ""
 
